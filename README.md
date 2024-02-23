@@ -13,4 +13,4 @@ Basta apenas rodar o comando `docker compose up` no diretório com yaml.
 
 - Local para testes com swagger é localhost:8080/swagger/index.html
 
-- Alguns dados já estão disponíveis para teste rápido no arquivo [dados.md](/database/Dados.md)  
+- Alguns dados já estão disponíveis para teste rápido no arquivo [dados.md](/Database/Dados.md)  
