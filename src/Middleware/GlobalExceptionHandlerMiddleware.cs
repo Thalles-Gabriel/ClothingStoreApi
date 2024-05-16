@@ -29,7 +29,7 @@ public class GlobalExceptionHandlerMiddleware : IMiddleware
             {
                 Status = StatusCodes.Status500InternalServerError,
                 Type = "Erro de servidor",
-                Title = e.InnerException.ToString(),
+                Title = e.InnerException?.ToString() ?? e.ToString(),
                 Detail = e.Message
             };
 
